@@ -1,4 +1,4 @@
-# Environment variab
+# Environment variables
 PATH="$PATH:/usr/local/bin"
 APP_NAME="Petclinic"
 CFN_KEYPAIR="Call-$APP_NAME-dev-${BUILD_NUMBER}.key"
