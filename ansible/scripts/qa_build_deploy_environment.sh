@@ -1,6 +1,6 @@
 PATH="$PATH:/usr/local/bin"
 APP_NAME="petclinic"
-CFN_KEYPAIR="polatkey-${APP_NAME}-qa.key"
+CFN_KEYPAIR="polat-${APP_NAME}-qa.key"
 APP_STACK_NAME="polatusa-$APP_NAME-App-QA-${BUILD_NUMBER}"
 export ANSIBLE_PRIVATE_KEY_FILE="${JENKINS_HOME}/.ssh/${CFN_KEYPAIR}"
 export ANSIBLE_HOST_KEY_CHECKING=False
