@@ -1,6 +1,6 @@
 PATH="$PATH:/usr/local/bin"
 APP_NAME="petclinic"
-APP_STACK_NAME="Polats-$APP_NAME-App-QA-${BUILD_NUMBER}"
+APP_STACK_NAME="Polatusa-$APP_NAME-App-QA-${BUILD_NUMBER}"
 CFN_KEYPAIR="polat-${APP_NAME}-qa.key"
 CFN_TEMPLATE="./infrastructure/qa-docker-swarm-infrastructure-cfn-template.yml"
 AWS_REGION="us-east-1"
