@@ -1,8 +1,8 @@
 PATH="$PATH:/usr/local/bin"
 APP_NAME="petclinic"
 APP_REPO_NAME="clarusway-repo/petclinic-app-qa"
-APP_STACK_NAME="polatusa-petclinic-App-QA-6"
-CFN_KEYPAIR="polat-petclinic-qa.key"
+APP_STACK_NAME="Polats-petclinic-App-QA-10"
+CFN_KEYPAIR="polatlast-petclinic-qa.key"
 AWS_ACCOUNT_ID=$(aws sts get-caller-identity --query Account --output text)
 AWS_REGION="us-east-1"
 ECR_REGISTRY="${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com"
